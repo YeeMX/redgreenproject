@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Products version="1.1">
+  <Product id="abb.robotics.robotos" name="RobotOS" version="13.2.0+38" versionName="13.2.0" installPath="C:/Users/28905/AppData/Local/ABB/RobotWare/RobotOS_13.2.0" productMediaPath="C:/Users/28905/AppData/Local/ABB/RobotWare/RobotOS_13.2.0/RobotOS_13.2.0" manifestFile="abb.robotics.robotos.rmf" installationTime="2026-09-26 18:51:19"/>
+  <Product id="abb.robotics.robotcontrol" name="RobotControl" version="7.15.2+1026" versionName="7.15.2" installPath="C:/Users/28905/AppData/Local/ABB/RobotWare/RobotControl_7.15.2" productMediaPath="C:/Users/28905/AppData/Local/ABB/RobotWare/RobotControl_7.15.2/RobotControl_7.15.2" manifestFile="abb.robotics.robotcontrol.rmf" installationTime="2026-09-26 18:51:19"/>
+  <Product id="abb.robotics.robots" name="Robots" version="1.15.1+56" versionName="1.15.1" installPath="C:/Users/28905/AppData/Local/ABB/RobotWare/Robots_1.15.1" productMediaPath="C:/Users/28905/AppData/Local/ABB/RobotWare/Robots_1.15.1/Robots_1.15.1" manifestFile="abb.robotics.robots.rmf" installationTime="2026-09-26 18:51:19"/>
+  <Product id="abb.robotics.flexpendantapps" name="FlexPendantSoftwareUpdate" version="1.16.1+1500" versionName="1.16.1" installPath="C:/Users/28905/AppData/Local/ABB/RobotWare/FlexPendant/Apps_1.16.1" productMediaPath="C:/Users/28905/AppData/Local/ABB/RobotWare/FlexPendant/Apps_1.16.1/FlexPendant/Apps_1.16.1" manifestFile="abb.robotics.flexpendantapps.rmf" installationTime="2026-09-26 18:51:19"/>
+</Products>

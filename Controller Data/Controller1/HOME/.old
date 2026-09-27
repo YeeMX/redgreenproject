@@ -1,0 +1,213 @@
+MODULE Module1
+
+    CONST robtarget Home_P:=
+    [[294.426577069,-3.238928977,398.626204981],
+    [0.017587782,0.720617719,-0.692967834,-0.014012666],
+    [-1,-1,2,0],
+    [9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+
+    CONST robtarget Pick_P:=
+    [[294.42656998,198.457700497,347.964193384],
+    [0.017587783,0.720617677,-0.692967877,-0.014012659],
+    [0,0,3,0],
+    [9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+
+    CONST robtarget Place_P:=
+    [[203.317190624,-239.378192774,203.819803513],
+    [0.01758777,0.720617732,-0.692967821,-0.014012625],
+    [-1,-1,2,0],
+    [9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+
+
+    PROC main()
+
+        VAR num i;
+
+
+        !========================================================
+        ! Initial position
+        !========================================================
+
+        MoveL Home_P,v100,fine,EE_tool\WObj:=wobj0;
+
+        Reset To_grasp_signal;
+
+
+        !========================================================
+        ! Stack 1
+        ! Right Front
+        !
+        ! Pick positions:
+        ! Part_39 -> Part_38 -> Part_37 -> Part_32
+        !
+        !========================================================
+
+        FOR i FROM 0 TO 3 DO
+
+            !-------------------------
+            ! Pick cylinder
+            !-------------------------
+            MoveL Offs(Pick_P,0,0,-50*i),
+                  v100,fine,EE_tool\WObj:=wobj0;
+
+            !-------------------------
+            ! Grasp
+            !-------------------------
+            Set To_grasp_signal;
+
+            !-------------------------
+            ! Lift
+            !-------------------------
+            MoveL Home_P,
+                  v100,fine,EE_tool\WObj:=wobj0;
+
+            !-------------------------
+            ! Move above place position
+            !-------------------------
+            MoveL Offs(Place_P,0,0,150+50*i),
+                  v50,fine,EE_tool\WObj:=wobj0;
+
+            !-------------------------
+            ! Move down to place position
+            !-------------------------
+            MoveL Offs(Place_P,0,0,50*i),
+                  v50,fine,EE_tool\WObj:=wobj0;
+
+            !-------------------------
+            ! Release
+            !-------------------------
+            Reset To_grasp_signal;
+
+            !-------------------------
+            ! Return Home
+            !-------------------------
+            MoveL Home_P,
+                  v100,fine,EE_tool\WObj:=wobj0;
+
+        ENDFOR
+
+
+        !========================================================
+        ! Stack 2
+        ! Left Front
+        !
+        ! Pick positions:
+        ! Part_36 -> Part_35 -> Part_34 -> Part_31
+        !
+        ! X offset = +160
+        !
+        !========================================================
+
+        FOR i FROM 0 TO 3 DO
+
+            !-------------------------
+            ! Pick cylinder
+            !-------------------------
+            MoveL Offs(Pick_P,160,0,-50*i),
+                  v100,fine,EE_tool\WObj:=wobj0;
+
+            !-------------------------
+            ! Grasp
+            !-------------------------
+            Set To_grasp_signal;
+
+            !-------------------------
+            ! Lift
+            !-------------------------
+            MoveL Home_P,
+                  v100,fine,EE_tool\WObj:=wobj0;
+
+            !-------------------------
+            ! Move above place position
+            !
+            ! Extra 150 mm safety height
+            !-------------------------
+            MoveL Offs(Place_P,160,0,150+50*i),
+                  v50,fine,EE_tool\WObj:=wobj0;
+
+            !-------------------------
+            ! Move vertically down
+            !-------------------------
+            MoveL Offs(Place_P,160,0,50*i),
+                  v30,fine,EE_tool\WObj:=wobj0;
+
+            !-------------------------
+            ! Release
+            !-------------------------
+            Reset To_grasp_signal;
+
+            !-------------------------
+            ! Return Home
+            !-------------------------
+            MoveL Home_P,
+                  v100,fine,EE_tool\WObj:=wobj0;
+
+        ENDFOR
+
+
+        !========================================================
+        ! Stack 3
+        ! Right Back
+        !
+        ! Pick positions:
+        ! Part_42 -> Part_41 -> Part_40 -> Part_33
+        !
+        ! X offset = +70
+        ! Y offset = +150
+        !
+        !========================================================
+
+        FOR i FROM 0 TO 3 DO
+
+            !-------------------------
+            ! Pick cylinder
+            !-------------------------
+            MoveL Offs(Pick_P,70,150,-50*i),
+                  v100,fine,EE_tool\WObj:=wobj0;
+
+            !-------------------------
+            ! Grasp
+            !-------------------------
+            Set To_grasp_signal;
+
+            !-------------------------
+            ! Lift
+            !-------------------------
+            MoveL Home_P,
+                  v100,fine,EE_tool\WObj:=wobj0;
+
+            !-------------------------
+            ! Move above place position
+            !-------------------------
+            MoveL Offs(Place_P,70,150,150+50*i),
+                  v50,fine,EE_tool\WObj:=wobj0;
+
+            !-------------------------
+            ! Move vertically down
+            !-------------------------
+            MoveL Offs(Place_P,70,150,50*i),
+                  v30,fine,EE_tool\WObj:=wobj0;
+
+            !-------------------------
+            ! Release
+            !-------------------------
+            Reset To_grasp_signal;
+
+            !-------------------------
+            ! Return Home
+            !-------------------------
+            MoveL Home_P,
+                  v100,fine,EE_tool\WObj:=wobj0;
+
+        ENDFOR
+
+
+        !========================================================
+        ! Finish
+        !========================================================
+
+        Stop;
+
+    ENDPROC
+
+ENDMODULE

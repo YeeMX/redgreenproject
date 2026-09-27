@@ -1,0 +1,99 @@
+<9>Sep 24 18:51:15 Controller1 ABB-UAL:01:Security log file deleted by user|-|syslog.log not found|3420|00001|-|robot|syslog	1
+<13>Sep 24 18:51:23 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00002|-|robot|Default User	2
+<13>Sep 24 18:51:23 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00003|-|robot|Default User	3
+<13>Sep 24 18:51:23 Controller1 ABB-UAL:01:Configuration upload|-|Start restore|1331|00004|-|robot|458759	4
+<13>Sep 24 18:51:33 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00005|-|robot|Default User	5
+<13>Sep 24 18:51:33 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00006|-|robot|Default User	6
+<13>Sep 24 18:51:38 Controller1 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=524296|1210|00007|-|robot|	7
+<13>Sep 24 18:51:39 Controller1 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=458759|1210|00008|-|robot|	8
+<13>Sep 24 18:51:39 Controller1 ABB-UAL:01:Log-out (user logged out)|-|Socket=3024|1210|00009|-|robot|	9
+<13>Sep 24 18:51:43 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00010|-|robot|Admin	10
+<13>Sep 24 18:51:43 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00011|-|robot|Admin	11
+<13>Sep 24 18:54:47 Controller1 ABB-UAL:01:Control system restarted|-|mode=3|5150|00012|-|robot|458759	12
+<13>Sep 24 18:54:56 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00013|-|robot|Admin	13
+<13>Sep 24 18:54:56 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00014|-|robot|Admin	14
+<13>Sep 24 18:56:54 Controller1 ABB-UAL:01:Control system restarted|-|restart warmstart|5150|00015|-|robot|458759	15
+<13>Sep 24 18:56:59 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00016|-|robot|Admin	16
+<13>Sep 24 18:56:59 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00017|-|robot|Admin	17
+<13>Sep 25 16:51:16 Controller1 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=524296|1210|00018|-|robot|	18
+<13>Sep 25 16:51:16 Controller1 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=458759|1210|00019|-|robot|	19
+<13>Sep 25 16:51:16 Controller1 ABB-UAL:01:Log-out (user logged out)|-|Socket=928|1210|00020|-|robot|	20
+<13>Sep 25 16:52:03 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=589831|1110|00021|-|robot|Admin	21
+<13>Sep 25 16:52:03 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=655368|1110|00022|-|robot|Admin	22
+<13>Sep 25 16:58:56 Controller1 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=655368|1210|00023|-|robot|	23
+<13>Sep 25 16:58:59 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=720904|1110|00024|-|robot|Admin	24
+<13>Sep 25 19:08:27 Controller1 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=720904|1210|00025|-|robot|	25
+<13>Sep 26 13:24:07 Controller1 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=589831|1210|00026|-|robot|	26
+<13>Sep 26 13:24:07 Controller1 ABB-UAL:01:Log-out (user logged out)|-|Socket=3496|1210|00027|-|robot|	27
+<13>Sep 26 13:24:53 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=786439|1110|00028|-|robot|Admin	28
+<13>Sep 26 13:24:53 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=851976|1110|00029|-|robot|Admin	29
+<13>Sep 26 14:32:12 Controller1 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=851976|1210|00030|-|robot|	30
+<13>Sep 26 14:33:14 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=917512|1110|00031|-|robot|Admin	31
+<13>Sep 26 16:14:01 Controller1 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=917512|1210|00032|-|robot|	32
+<13>Sep 26 16:14:01 Controller1 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=786439|1210|00033|-|robot|	33
+<13>Sep 26 16:14:01 Controller1 ABB-UAL:01:Log-out (user logged out)|-|Socket=3400|1210|00034|-|robot|	34
+<9>Sep 26 18:51:26 Controller1 ABB-UAL:01:Log data hash check failed (Log data altered)|-|invalid digest syslog.log|3220|00035|-|robot|syslog	35
+<13>Sep 26 18:51:35 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00036|-|robot|Default User	36
+<13>Sep 26 18:51:35 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00037|-|robot|Default User	37
+<13>Sep 26 18:51:36 Controller1 ABB-UAL:01:Configuration upload|-|Start restore|1331|00038|-|robot|458759	38
+<13>Sep 26 18:51:43 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00039|-|robot|Default User	39
+<13>Sep 26 18:51:43 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00040|-|robot|Default User	40
+<13>Sep 26 18:51:48 Controller1 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=524296|1210|00041|-|robot|	41
+<13>Sep 26 18:51:48 Controller1 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=458759|1210|00042|-|robot|	42
+<13>Sep 26 18:51:48 Controller1 ABB-UAL:01:Log-out (user logged out)|-|Socket=928|1210|00043|-|robot|	43
+<13>Sep 26 18:51:52 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00044|-|robot|Admin	44
+<13>Sep 26 18:51:52 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00045|-|robot|Admin	45
+<13>Sep 26 19:34:07 Controller1 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=524296|1210|00046|-|robot|	46
+<13>Sep 26 19:36:52 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=589832|1110|00047|-|robot|Admin	47
+<13>Sep 26 19:43:35 Controller1 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=589832|1210|00048|-|robot|	48
+<13>Sep 26 19:43:35 Controller1 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=458759|1210|00049|-|robot|	49
+<13>Sep 26 19:43:35 Controller1 ABB-UAL:01:Log-out (user logged out)|-|Socket=3084|1210|00050|-|robot|	50
+<13>Sep 26 19:44:24 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00051|-|robot|Admin	51
+<13>Sep 26 19:44:24 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00052|-|robot|Admin	52
+<13>Sep 26 19:48:49 Controller1 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=524296|1210|00053|-|robot|	53
+<13>Sep 26 19:48:49 Controller1 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=458759|1210|00054|-|robot|	54
+<13>Sep 26 19:48:49 Controller1 ABB-UAL:01:Log-out (user logged out)|-|Socket=840|1210|00055|-|robot|	55
+<13>Sep 26 19:52:38 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00056|-|robot|Admin	56
+<13>Sep 26 19:52:38 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00057|-|robot|Admin	57
+<13>Sep 26 19:56:32 Controller1 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=524296|1210|00058|-|robot|	58
+<13>Sep 26 19:56:32 Controller1 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=458759|1210|00059|-|robot|	59
+<13>Sep 26 19:56:32 Controller1 ABB-UAL:01:Log-out (user logged out)|-|Socket=3088|1210|00060|-|robot|	60
+<13>Sep 26 19:57:08 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00061|-|robot|Admin	61
+<13>Sep 26 19:57:08 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00062|-|robot|Admin	62
+<13>Sep 26 21:34:14 Controller1 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=524296|1210|00063|-|robot|	63
+<13>Sep 26 21:36:31 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=589832|1110|00064|-|robot|Admin	64
+<13>Sep 26 23:08:36 Controller1 ABB-UAL:01:Control system restarted|-|restart warmstart|5150|00065|-|robot|458759	65
+<13>Sep 26 23:08:46 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00066|-|robot|Admin	66
+<13>Sep 26 23:08:46 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00067|-|robot|Admin	67
+<13>Sep 27 00:18:13 Controller1 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=524296|1210|00068|-|robot|	68
+<13>Sep 27 00:20:53 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=589832|1110|00069|-|robot|Admin	69
+<13>Sep 27 03:43:44 Controller1 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=589832|1210|00070|-|robot|	70
+<13>Sep 27 05:11:59 Controller1 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=458759|1210|00071|-|robot|	71
+<13>Sep 27 05:11:59 Controller1 ABB-UAL:01:Log-out (user logged out)|-|Socket=3100|1210|00072|-|robot|	72
+<13>Sep 27 14:12:39 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=655367|1110|00073|-|robot|Admin	73
+<13>Sep 27 14:12:39 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=720904|1110|00074|-|robot|Admin	74
+<13>Sep 27 14:57:56 Controller1 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=720904|1210|00075|-|robot|	75
+<13>Sep 27 15:49:27 Controller1 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=655367|1210|00076|-|robot|	76
+<13>Sep 27 15:49:27 Controller1 ABB-UAL:01:Log-out (user logged out)|-|Socket=3100|1210|00077|-|robot|	77
+<13>Sep 27 15:50:51 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=786439|1110|00078|-|robot|Admin	78
+<13>Sep 27 15:50:51 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=851976|1110|00079|-|robot|Admin	79
+<13>Sep 27 16:29:54 Controller1 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=851976|1210|00080|-|robot|	80
+<13>Sep 27 16:29:54 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=917512|1110|00081|-|robot|Admin	81
+<13>Sep 27 19:03:25 Controller1 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=917512|1210|00082|-|robot|	82
+<13>Sep 27 19:03:25 Controller1 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=786439|1210|00083|-|robot|	83
+<13>Sep 27 19:03:25 Controller1 ABB-UAL:01:Log-out (user logged out)|-|Socket=3468|1210|00084|-|robot|	84
+<13>Sep 27 20:51:25 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=983047|1110|00085|-|robot|Admin	85
+<13>Sep 27 20:51:25 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=1048584|1110|00086|-|robot|Admin	86
+<13>Sep 27 22:35:12 Controller1 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=1048584|1210|00087|-|robot|	87
+<13>Sep 27 23:44:00 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=1114120|1110|00088|-|robot|Admin	88
+<13>Sep 28 00:18:47 Controller1 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=1114120|1210|00089|-|robot|	89
+<13>Sep 28 00:18:47 Controller1 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=983047|1210|00090|-|robot|	90
+<13>Sep 28 00:18:47 Controller1 ABB-UAL:01:Log-out (user logged out)|-|Socket=3468|1210|00091|-|robot|	91
+<13>Sep 28 00:20:09 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00092|-|robot|Admin	92
+<13>Sep 28 00:20:09 Controller1 ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00093|-|robot|Admin	93
+<13>Sep 28 00:29:18 Controller1 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=524296|1210|00094|-|robot|	94
+<13>Sep 28 00:29:18 Controller1 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=458759|1210|00095|-|robot|	95
+<13>Sep 28 00:29:18 Controller1 ABB-UAL:01:Log-out (user logged out)|-|Socket=3084|1210|00096|-|robot|	96
+-----BEGIN DIGEST-----
+9SJSeOwUJIssdo33OrpM95HMa7mhF6dZzs4jZ1Q2kGAX3tuZ1z9mfW9CQMTlXfQzib58lA==
+-----END DIGEST-----

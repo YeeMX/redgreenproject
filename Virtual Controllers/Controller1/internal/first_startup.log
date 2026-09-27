@@ -1,0 +1,85 @@
+C:\a\2\s\DpUpdates\DpUpdates.cpp, 54	2026-09-26 18:51:19: Starting new log ***********************. 
+C:\a\2\s\DpUpdates\DpUpdates.cpp, 55	[INFO] Finalize the installation. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1147	Recreate 'D:/RobotStudio/Projects/Project2_1/Virtual Controllers/Controller1/internal/temp/INSTALL'
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1161	[INFO] InstallSystem starts. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1165	[INFO] Create system structures. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1476	[INFO] Building system structure in 'D:/RobotStudio/Projects/Project2_1/Virtual Controllers/Controller1/internal'.
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1492	[INFO] Building folders under 'D:/RobotStudio/Projects/Project2_1/Virtual Controllers/Controller1'.
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1517	GetProdsAndFeaturesFromCtrlrsfFile(), file path = 'D:/RobotStudio/Projects/Project2_1/Virtual Controllers/Controller1/internal/controller.rsf'. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1563	GetProdsAndFeaturesFromCtrlrsfFile(), got 4 products. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1628	GetProdsAndFeaturesFromCtrlrsfFile(), got 1 features for product 'RobotOS'. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1628	GetProdsAndFeaturesFromCtrlrsfFile(), got 16 features for product 'RobotControl'. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1628	GetProdsAndFeaturesFromCtrlrsfFile(), got 1 features for product 'FlexPendantSoftwareUpdate'. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1628	GetProdsAndFeaturesFromCtrlrsfFile(), got 2 features for product 'Robots'. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1192	[INFO] Get information of product 'RobotOS'.
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1201	[INFO] Get all features and feature data of product 'RobotOS'.
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 356	[INFO] Number of features for product 'RobotOS' is 1.
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 359	[INFO] Get information for each feature.
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 405	[INFO] No KeyValue found for feature 'abb.robotics.robotos' in file C:/Users/28905/AppData/Local/ABB/RobotWare/RobotOS_13.2.0/abb.robotics.robotos.rmf.
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1192	[INFO] Get information of product 'RobotControl'.
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1201	[INFO] Get all features and feature data of product 'RobotControl'.
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 356	[INFO] Number of features for product 'RobotControl' is 16.
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 359	[INFO] Get information for each feature.
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 405	[INFO] No KeyValue found for feature 'abb.robotics.robotcontrol.controllerhw.variant.e10' in file C:/Users/28905/AppData/Local/ABB/RobotWare/RobotControl_7.15.2/abb.robotics.robotcontrol.rmf.
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 405	[INFO] No KeyValue found for feature 'abb.robotics.robotcontrol.controllerhw.axiscomputer.none' in file C:/Users/28905/AppData/Local/ABB/RobotWare/RobotControl_7.15.2/abb.robotics.robotcontrol.rmf.
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 405	[INFO] No KeyValue found for feature 'abb.robotics.robotcontrol.controllerhw.safemove.essential' in file C:/Users/28905/AppData/Local/ABB/RobotWare/RobotControl_7.15.2/abb.robotics.robotcontrol.rmf.
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 405	[INFO] No KeyValue found for feature 'abb.robotics.robotcontrol.controllerhw.io.integrated' in file C:/Users/28905/AppData/Local/ABB/RobotWare/RobotControl_7.15.2/abb.robotics.robotcontrol.rmf.
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 405	[INFO] No KeyValue found for feature 'abb.robotics.robotcontrol.controllerhw.m28.02' in file C:/Users/28905/AppData/Local/ABB/RobotWare/RobotControl_7.15.2/abb.robotics.robotcontrol.rmf.
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 405	[INFO] No KeyValue found for feature 'abb.robotics.robotcontrol.controllerhw.varianttype.e10.notype' in file C:/Users/28905/AppData/Local/ABB/RobotWare/RobotControl_7.15.2/abb.robotics.robotcontrol.rmf.
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1192	[INFO] Get information of product 'FlexPendantSoftwareUpdate'.
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1201	[INFO] Get all features and feature data of product 'FlexPendantSoftwareUpdate'.
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 356	[INFO] Number of features for product 'FlexPendantSoftwareUpdate' is 1.
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 359	[INFO] Get information for each feature.
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 405	[INFO] No KeyValue found for feature 'abb.robotics.flexpendantapps.apps' in file C:/Users/28905/AppData/Local/ABB/RobotWare/FlexPendant/Apps_1.16.1/abb.robotics.flexpendantapps.rmf.
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1192	[INFO] Get information of product 'Robots'.
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1201	[INFO] Get all features and feature data of product 'Robots'.
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 356	[INFO] Number of features for product 'Robots' is 2.
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 359	[INFO] Get information for each feature.
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1829	[INFO] Product path 'C:/Users/28905/AppData/Local/ABB/RobotWare/RobotControl_7.15.2'.
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1854	[INFO] Product path 'C:/Users/28905/AppData/Local/ABB/RobotWare/RobotOS_13.2.0'.
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1854	[INFO] Product path 'C:/Users/28905/AppData/Local/ABB/RobotWare/FlexPendant/Apps_1.16.1'.
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1854	[INFO] Product path 'C:/Users/28905/AppData/Local/ABB/RobotWare/Robots_1.15.1'.
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1877	[WARNING] Failed to get serial number or empty serial number. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1935	[INFO] Generating key.id, writing header.
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 2159	[INFO] Generate file 'D:/RobotStudio/Projects/Project2_1/Virtual Controllers/Controller1/internal/system.xml'.
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 2188	[WARNING] Unable to get serial number or empty serial number. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1265	All actions done, status = 0. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 2438	[INFO] Installation is complete. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 880	[INFO] Update prodinfo.xml. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 909	[INFO] Need to update prodinfo.xml. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 950	[INFO] File D:/RobotStudio/Projects/Project2_1/Virtual Controllers/Controller1/internal/prodinfo.xml has been updated. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 981	[INFO] Failed to get RWI version. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1006	[INFO] File D:/RobotStudio/Projects/Project2_1/Virtual Controllers/Controller1/internal/prodinfo.xml has been created, status = 0. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1517	GetProdsAndFeaturesFromCtrlrsfFile(), file path = 'D:/RobotStudio/Projects/Project2_1/Virtual Controllers/Controller1/internal/controller.rsf'. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1563	GetProdsAndFeaturesFromCtrlrsfFile(), got 4 products. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1628	GetProdsAndFeaturesFromCtrlrsfFile(), got 1 features for product 'RobotOS'. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1628	GetProdsAndFeaturesFromCtrlrsfFile(), got 16 features for product 'RobotControl'. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1628	GetProdsAndFeaturesFromCtrlrsfFile(), got 1 features for product 'FlexPendantSoftwareUpdate'. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1628	GetProdsAndFeaturesFromCtrlrsfFile(), got 2 features for product 'Robots'. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 2037	[INFO] ResetAddInData status =0.
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 880	[INFO] Update prodinfo.xml. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1006	[INFO] File D:/RobotStudio/Projects/Project2_1/Virtual Controllers/Controller1/internal/prodinfo.xml has been created, status = 0. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 2069	[INFO] Importing AddIn data from Backup.
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1517	GetProdsAndFeaturesFromCtrlrsfFile(), file path = 'D:/RobotStudio/Projects/Project2_1/Virtual Controllers/Controller1/internal/controller.rsf'. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1563	GetProdsAndFeaturesFromCtrlrsfFile(), got 4 products. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1628	GetProdsAndFeaturesFromCtrlrsfFile(), got 1 features for product 'RobotOS'. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1628	GetProdsAndFeaturesFromCtrlrsfFile(), got 16 features for product 'RobotControl'. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1628	GetProdsAndFeaturesFromCtrlrsfFile(), got 1 features for product 'FlexPendantSoftwareUpdate'. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1628	GetProdsAndFeaturesFromCtrlrsfFile(), got 2 features for product 'Robots'. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 2093	[INFO] Number of AddIns present in the current system is: 4.
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 2124	[INFO] Import AddIn 'abb.robotics.flexpendantapps' data from Backup ok.
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 2124	[INFO] Import AddIn 'abb.robotics.robots' data from Backup ok.
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 880	[INFO] Update prodinfo.xml. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1006	[INFO] File D:/RobotStudio/Projects/Project2_1/Virtual Controllers/Controller1/internal/prodinfo.xml has been created, status = 0. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 880	[INFO] Update prodinfo.xml. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1006	[INFO] File D:/RobotStudio/Projects/Project2_1/Virtual Controllers/Controller1/internal/prodinfo.xml has been created, status = 0. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 880	[INFO] Update prodinfo.xml. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1006	[INFO] File D:/RobotStudio/Projects/Project2_1/Virtual Controllers/Controller1/internal/prodinfo.xml has been created, status = 0. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 880	[INFO] Update prodinfo.xml. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1006	[INFO] File D:/RobotStudio/Projects/Project2_1/Virtual Controllers/Controller1/internal/prodinfo.xml has been created, status = 0. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 880	[INFO] Update prodinfo.xml. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1006	[INFO] File D:/RobotStudio/Projects/Project2_1/Virtual Controllers/Controller1/internal/prodinfo.xml has been created, status = 0. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 880	[INFO] Update prodinfo.xml. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1006	[INFO] File D:/RobotStudio/Projects/Project2_1/Virtual Controllers/Controller1/internal/prodinfo.xml has been created, status = 0. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 880	[INFO] Update prodinfo.xml. 
+C:\a\2\s\DpUpdates\DpUpdates_i.cpp, 1006	[INFO] File D:/RobotStudio/Projects/Project2_1/Virtual Controllers/Controller1/internal/prodinfo.xml has been created, status = 0. 
